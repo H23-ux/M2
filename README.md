@@ -12,7 +12,7 @@ Write a C program to print even numbers ranging from M to N (including M and N v
 7.	Continue the loop until you have iterated through all numbers from M to N.
 
 ## PROGRAM:
-
+```
 #include <stdio.h>
 
 int main()
@@ -42,6 +42,7 @@ int main()
     return 0;
     
 }
+```
 ## OUTPUT:
 
 ![image](https://github.com/user-attachments/assets/42ea8ba2-ce52-4bd6-9916-c8a34e3e5e11)
@@ -75,7 +76,7 @@ Write a C program to print the given triangular pattern using loop.
 5.	Continue the loop until you have printed the entire triangular pattern.
 
 ## PROGRAM:
-
+```
 #include<stdio.h>
 
 int main()
@@ -118,7 +119,7 @@ int main()
     
     return 0;
 }
-
+```
 ## OUTPUT:
 
 ![image](https://github.com/user-attachments/assets/c60688f8-842f-437c-9b51-26a1400aabc8)
@@ -147,6 +148,7 @@ Write a C program to perform addition and subtraction of two numbers using funct
 4.	Call the addition and subtraction functions, passing the two numbers as arguments.
 
 ## PROGRAM:
+```
 #include <stdio.h>
 
 void addition(int a, int b);
@@ -185,7 +187,7 @@ void addition(int a, int b)
     printf("Subtraction: %d\n", a - b);
     
 }
-
+```
 ## OUTPUT:
 
 
@@ -217,7 +219,7 @@ Write a c program to find the sum of odd digits using for loop
 6.	Print the sum of odd digits.
 
 ## PROGRAM:
-
+```
 #include <stdio.h>
 
 int main() 
@@ -250,7 +252,7 @@ int main()
     return 0;
     
 }
-
+```
 ## OUTPUT:
 
 
@@ -277,6 +279,7 @@ d.	After the loop, print the factorial value.
 5.	End
 
 ## PROGRAM:
+```
 #include <stdio.h>
 
 void fact();
@@ -312,9 +315,7 @@ void fact()
 
     printf("Factorial of %d = %d\n", N, factorial);
 }
-
-
-
+```
 ## OUTPUT:
 
 ![image](https://github.com/user-attachments/assets/a839dba0-dab9-4367-96da-c722a5316076)
