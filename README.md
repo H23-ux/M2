@@ -14,43 +14,28 @@ Write a C program to print even numbers ranging from M to N (including M and N v
 ## PROGRAM:
 ```
 #include <stdio.h>
-
 int main()
-
 {
-
-    int M, N,i;
-    
+    int M, N;
+    printf("Enter the values of M and N: ");
     scanf("%d %d", &M, &N);
-    
-    if(M%2!=0)
-    
+    printf("Even numbers from %d to %d are:\n", M, N);
+    for (int i = M; i <= N; i++)
     {
-    
-        M++;
-        
+        if (i % 2 == 0)
+        {
+            printf("%d ", i); 
+        }
     }
-    
-    for (i = M; i <= N; i += 2)
-    
-    {
-    
-        printf("%d ", i);
-        
-    }
-    
+
+    printf("\n");
     return 0;
-    
 }
 ```
+
 ## OUTPUT:
 
-![image](https://github.com/user-attachments/assets/42ea8ba2-ce52-4bd6-9916-c8a34e3e5e11)
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/e589a522-ee48-4ee0-b6d4-1923d685792f)
 
 
 
